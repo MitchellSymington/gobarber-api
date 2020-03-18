@@ -38,6 +38,7 @@ class UserController {
     const schema = Yup.object().shape({
       name: Yup.string(),
       email: Yup.string().email(),
+      avatar_id: Yup.number(),
       oldPassword: Yup.string().min(6),
       password: Yup.string()
         .min(6)
@@ -78,7 +79,7 @@ class UserController {
         {
           model: File,
           as: 'avatar',
-          attributes: ['id', 'name', 'url'],
+          attributes: ['id', 'name', 'path', 'url'],
         },
       ],
     });
