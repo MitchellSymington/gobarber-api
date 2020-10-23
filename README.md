@@ -3,7 +3,7 @@
 ### :fire: Rodar os comandos abaixo:
 
 :one: Instale uma imagem do Redis</br>
-`docker run --name redis -p 6379:6379 -d -t redis:alpine`
+`ddocker run --name redisbarber -p 6379:6379 -d -t redis:alpine`
 
 :two: Instale uma imagem do Postgres</br>
 `docker run --name database -e POSTGRES_PASSWORD=docker -p 5432:5432 -d postgres:11`
