@@ -28,11 +28,11 @@
 `$ yarn install`
 
 :nine: Subir bancos com Docker
-`$ docker start database`
-`$ docker start mongodb`
-`$ docker start redis`
+`$ docker start database`</br>
+`$ docker start mongodb`</br>
+`$ docker start redis`</br>
 
 :keycap_ten: Iniciar</br>
-`$ yarn dev`
-`$ yarn queue`
+`$ yarn dev`</br>
+`$ yarn queue`</br>
 
