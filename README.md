@@ -27,7 +27,7 @@
 :eight: Instalar dependencias</br>
 `$ yarn install`
 
-:nine: Subir bancos com Docker
+:nine: Subir bancos com Docker</br>
 `$ docker start database`</br>
 `$ docker start mongodb`</br>
 `$ docker start redis`</br>
