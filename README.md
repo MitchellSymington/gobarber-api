@@ -9,7 +9,7 @@
 `docker run --name database -e POSTGRES_PASSWORD=docker -p 5432:5432 -d postgres:11`
 
 :three: Instale uma imagem do MongoDB</br>
-`docker run --name mongodb -p 27017:27017 -d -t mongo`
+`docker run --name mongobarber -p 27017:27017 -d -t mongo`
 
 :four: Rodando as migrations</br>
 `yarn sequelize db:migrate`
@@ -29,8 +29,8 @@
 
 :nine: Subir bancos com Docker</br>
 `$ docker start database`</br>
-`$ docker start mongodb`</br>
-`$ docker start redis`</br>
+`$ docker start mongobarber`</br>
+`$ docker start redisbarber`</br>
 
 :keycap_ten: Iniciar</br>
 `$ yarn dev`</br>
