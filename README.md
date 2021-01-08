@@ -11,15 +11,14 @@
 :three: Instale uma imagem do MongoDB</br>
 `docker run --name mongobarber -p 27017:27017 -d -t mongo`
 
-:four: Rodando as migrations</br>
+:four: Clonar projeto</br>
+`$ git clone https://github.com/MitchellSymington/gobarber-api.git`
+
+:five: Rodando as migrations</br>
 `yarn sequelize db:migrate`
 
-:five: Permitindo que haja o administrador no banco</br>
+:six: Permitindo que haja o administrador no banco</br>
 `yarn sequelize db:seed:all`
-
-
-:six: Clonar projeto</br>
-`$ git clone https://github.com/MitchellSymington/gobarber-api.git`
 
 :seven: Ir para o diretório </br>
 `$ cd gobarber-api`
